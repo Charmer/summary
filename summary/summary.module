@@ -3,13 +3,5 @@
  * Implements hook_form_alter().
  */
 function summary_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  if($form_id == "node_news_edit_form" || $form_id == "node_news_form")
-  {
-    $form['#attached']['library'][] = 'summary/form';
-    /*
-    echo "<pre>";
-    var_dump($form["body"]["widget"][0]["#attributes"]);
-    echo "</pre>";*/
-  }
-
+  $form['#attached']['library'][] = 'summary/form';
 }
