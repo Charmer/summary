@@ -1,0 +1,9 @@
+form:
+  version: 1.x
+  css:
+    layout:
+      css/summary.css: {}
+  js:
+      js/script.js: {}
+  dependencies:
+    - core/jquery

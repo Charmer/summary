@@ -1,0 +1,6 @@
+name: Summary
+description: 'Summary limit 150 simbools to news'
+type: module
+core: 8.x
+version: 1.0
+package: KPFU

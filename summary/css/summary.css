@@ -1,0 +1,11 @@
+/*
+#edit-body-0-summary--description {
+    display: none;
+}*/
+.js-text-summary-wrapper.text-summary-wrapper {
+    display: block !important;
+}
+
+.link.link-edit-summary {
+    display: none;
+}
